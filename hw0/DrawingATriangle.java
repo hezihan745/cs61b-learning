@@ -1,6 +1,16 @@
- public class HelloWorld {
+ public class DrawingATriangle {
      public static void main(String[] args) {
-         System.out.println("Hello world!");
+     	int i = 1;
+		int j = 0;
+		while (i < 6) {
+  			j = i;
+			while (j > 0) {
+				System.out.print("*");
+				j = j - 1;
+			}
+			System.out.println("");
+			i = i + 1;  
+     	}
 	}
  }
 
